@@ -25,3 +25,6 @@ def butter_filter(data, min_frq, max_frq, N, btype):
 
 #FFT filter
 ##TODO
+
+#data_filtered = moving_avg_filter(data_shared[i+1], 3, 'percentile', 10)
+#data = np.dstack([data_shared[0], data_filtered])[0]
